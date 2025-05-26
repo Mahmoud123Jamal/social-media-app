@@ -1,0 +1,9 @@
+.breadcrumb-item.active span {
+    color: yellow !important;
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 1280px) {
+      .breadcrumb{
+        display: none;
+      }
+  }

@@ -1,0 +1,47 @@
+:root {
+    --iconColor: rgb(255, 255, 255);
+    --iconHoverColor: rgba(255, 255, 255, 0.66);
+    --backgroundColor: #fff;
+  }
+  
+  .header {
+    height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: var(--backgroundColor);
+
+  }
+  
+  /* Input area */
+  .input-container {
+    width: 40%;
+    margin-left: 5rem;
+  }
+  
+
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 1279px) {
+    .header {
+      height: 170px;
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+  
+    .input-container {
+      width: 95%;
+      margin: 1.5rem 1rem;
+    }
+  
+    .avatar ,  .max-hide {
+        display: none !important;
+      }
+  }
+
+
+  @media screen and (min-width: 1280px) {
+    .avatar ,  .max-hide {
+        display: flex !important;
+      }
+  }

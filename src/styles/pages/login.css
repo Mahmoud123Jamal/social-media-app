@@ -1,0 +1,22 @@
+.loginLogo {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1775ee;
+  }
+  
+  .loginDesc {
+    font-size: 18px;
+  }
+  
+  .loginRegisterButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+  }
+  

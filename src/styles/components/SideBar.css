@@ -1,0 +1,43 @@
+.Side-bar {
+  height: calc(100vh - 90px);
+  overflow-y: auto;
+  position: sticky;
+  top: 90px;
+  background-color: white;
+  margin-top: 2rem;
+  width: 250px;
+  /* Add scrollbar styling specific to SideBar */
+  scrollbar-width: thin; /* For Firefox */
+}
+
+/* Custom scrollbar styling for SideBar only */
+.Side-bar::-webkit-scrollbar {
+  width: 0.25rem; /* Thinner than the global 0.5rem */
+}
+
+.Side-bar::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.Side-bar::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+  border-radius: 4px;
+}
+
+.Side-bar::-webkit-scrollbar-thumb:hover {
+  background-color: #a8a8a8;
+}
+
+@media screen and (max-width: 1279px) {
+  .Side-bar {
+    height: calc(100vh - 170px);
+    margin-top: 9rem;
+  }
+}
+
+hr {
+  width: 300px;
+  height: 1px;
+  background-color: #000;
+}
