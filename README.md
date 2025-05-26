@@ -1,33 +1,34 @@
 # GhorabaSocial
 
-GhorabaSocial is a modern, responsive social media web application built with React, TypeScript, React Router, and Bootstrap 5. Developed by **Mahmoud Ghoraba**, it offers users a clean and intuitive platform to connect with friends, share posts, and engage with content seamlessly.
+**GhorabaSocial** is a modern, responsive social media web application built with **React**, **TypeScript**, **React Router**, and **Bootstrap 5**.
+
+Developed by **Mahmoud Ghoraba**, it offers users a clean and intuitive platform to connect with friends, share posts, and engage with content seamlessly.
 
 ---
 
-## Features
+## ✨ Features
 
-- User authentication: Login and Signup forms with validation
-- Responsive two-column layout for forms and content
-- Navigation using React Router with breadcrumb navigation
-- User profiles and personalized feeds
-- Posting and interacting with content (likes, comments)
-- Dynamic UI with Bootstrap 5 styling and React Icons
-- Error handling for images and UI elements
-- Mobile-friendly design with responsive breakpoints
+- 🔐 User authentication (Login & Signup) with validation  
+- 💬 Create posts, like, and comment on content  
+- 🧭 React Router navigation with breadcrumb support  
+- 🧑‍🤝‍🧑 View user profiles and friends  
+- 🎨 Bootstrap 5 UI with responsive design  
+- ⚙️ Error handling for images and interactions  
+- 📱 Fully responsive on all screen sizes  
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend:** React 19 + TypeScript  
 - **Routing:** React Router v6  
 - **Styling:** Bootstrap 5, custom CSS  
 - **Icons:** React Icons  
-- **Tooling:** Vite, npm
+- **Build Tool:** Vite  
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -36,82 +37,73 @@ GhorabaSocial is a modern, responsive social media web application built with Re
 
 ### Installation
 
-1. Clone the repository:
+```bash
+# Clone the repository
+git clone https://github.com/Mahmoud123Jamal/social-media-app.git
+cd social-media-app
 
-   ```bash
-   git clone https://github.com/Mahmoud123Jamal/social-media-app.git
-   cd social-media-app
-   ```
+# Install dependencies
+npm install
 
-2. Install dependencies:
+# Start development server
+npm run dev
+```
 
-   ```bash
-   npm install
-   ```
+### Open in browser
 
-3. Run the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to:
-
-   ```
-  https://ghorabasocial.netlify.app
-   ```
+👉 [https://ghorabasocial.netlify.app](https://ghorabasocial.netlify.app)
 
 ---
 
-## Project Structure
+## 🗂 Project Structure
 
-```
+```plaintext
 src/
 ├── components/       # Reusable UI components
 │   ├── Breadcrumb.tsx
 │   ├── Feed.tsx
 │   ├── Footer.tsx
-│   ├── Freinds.tsx
+│   ├── Friends.tsx
 │   ├── NavBar.tsx
 │   ├── Online.tsx
 │   ├── Post.tsx
 │   ├── RightBar.tsx
 │   ├── Share.tsx
 │   └── SideBar.tsx
-├── pages/           # Main application pages
+├── pages/            # Main application pages
 │   ├── Home.tsx
 │   ├── Login.tsx
 │   ├── Profile.tsx
 │   └── SignUp.tsx
-├── styles/          # CSS styles organized by component and page
+├── styles/           # CSS styles organized by component and page
 │   ├── components/
 │   └── pages/
-├── dummyData.ts     # Mock data for development
-├── app.tsx          # Main application component
-└── main.tsx         # Application entry point
+├── dummyData.ts      # Mock data for development
+├── app.tsx           # Main application component
+└── main.tsx          # Application entry point
 ```
 
 ---
 
-## Future Improvements
+## 📦 Future Improvements
 
-- Integrate backend API (Firebase)
-- Add JWT-based session authentication
-- Support for user avatars and media uploads
-- Add dark mode toggle
-- Add i18n for multilingual support
-- Progressive Web App (PWA) support
+- 🔗 Integrate with backend API (Firebase or custom)  
+- 🔐 JWT-based session authentication  
+- 🖼 Support user avatars & media uploads  
+- 🌙 Add dark mode toggle  
+- 🌍 Multilingual support (i18n)  
+- 📱 Convert to a Progressive Web App (PWA)  
 
 ---
 
-## Developer
+## 👨‍💻 Developer
 
 **Mahmoud Ghoraba**  
-GitHub: [Mahmoud123Jamal](https://github.com/Mahmoud123Jamal)  
+GitHub: [@Mahmoud123Jamal](https://github.com/Mahmoud123Jamal)  
 Email: mahmoud1234goraba@gmail.com
 
 ---
 
-## License
+## 📝 License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
